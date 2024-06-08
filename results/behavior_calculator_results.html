@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>behavior_calculator_results.xml</title>
+    <style type="text/css">
+        body {
+    background-color: white;
+    padding-bottom: 20em;
+    margin: 0;
+    min-height: 15cm;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: #007acc;
+    color: white;
+    padding: 3mm;
+    margin-top: 0;
+    margin-bottom: 1mm;
+}
+
+.footer {
+    font-style: italic;
+    font-size: small;
+    text-align: right;
+    padding: 1em;
+}
+
+.testsuite {
+    padding-bottom: 2em;
+    margin-left: 1em;
+}
+
+.proplist {
+    width: 100%;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+.proplist th {
+    background-color: silver;
+    width: 5em;
+    padding: 2px;
+    padding-right: 1em;
+    text-align: left;
+}
+
+.proplist td {
+    padding: 2px;
+}
+
+.index-table {
+    width: 90%;
+    margin-left: 1em;
+}
+
+.index-table td {
+    vertical-align: top;
+    max-width: 200px;
+    word-wrap: break-word;
+}
+
+.failure-index {
+
+}
+
+.toc {
+    margin-bottom: 2em;
+    font-family: monospace;
+}
+
+.stdio, pre {
+    min-height: 1em;
+    background-color: #1e1e1e;
+    color: silver;
+    padding: 0.5em;
+}
+.tdpre {
+    background-color: #1e1e1e;
+}
+
+.test {
+    margin-left: 0.5cm;
+}
+
+.outcome {
+    border-left: 1em;
+    padding: 2px;
+}
+
+.outcome-failed {
+    border-left: 1em solid lightcoral;
+}
+
+.outcome-passed {
+    border-left: 1em solid lightgreen;
+}
+
+.outcome-skipped {
+    border-left: 1em dotted silver;
+}
+
+.stats-table {
+}
+
+.stats-table td {
+    min-width: 4em;
+    text-align: right;
+}
+
+.stats-table .failed {
+    background-color: lightcoral;
+}
+
+.stats-table .passed {
+    background-color: lightgreen;
+}
+
+.matrix-table {
+    table-layout: fixed;
+    border-spacing: 0;
+    width: available;
+    margin-left: 1em;
+}
+
+.matrix-table td {
+    vertical-align: center;
+}
+
+.matrix-table td:last-child {
+    width: 0;
+}
+
+.matrix-table tr:hover {
+    background-color: yellow;
+}
+
+.matrix-axis-name {
+    white-space: nowrap;
+    padding-right: 0.5em;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    text-align: right;
+}
+
+.matrix-axis-line {
+    border-left: 1px solid black;
+    width: 0.5em;
+}
+
+.matrix-classname {
+    text-align: left;
+    width: 100%;
+    border-top: 2px solid grey;
+    border-bottom: 1px solid silver;
+}
+
+.matrix-casename {
+    text-align: left;
+    font-weight: normal;
+    font-style: italic;
+    padding-left: 1em;
+    border-bottom: 1px solid silver;
+}
+
+.matrix-result {
+    display: block;
+    width: 1em;
+    text-align: center;
+    padding: 1mm;
+    margin: 0;
+}
+
+.matrix-result-combined {
+    white-space: nowrap;
+    padding-right: 0.2em;
+    text-align: right;
+}
+
+.matrix-result-failed {
+    background-color: lightcoral;
+}
+
+.matrix-result-passed {
+    background-color: lightgreen;
+}
+
+.matrix-result-skipped {
+    background-color: lightyellow;
+}
+
+.matrix-even {
+    background-color: lightgray;
+}
+    </style>
+</head>
+<body>
+    
+<h1>
+    Test Report : behavior_calculator_results.xml
+</h1>
+<a id="toc"></a>
+<table class="index-table">
+    <tr>
+        <td>
+            <ul class="toc">
+            
+                
+                <li>features.calculator.Calculator basic usage
+                <ul>
+                    
+                    <li><a href="#d3beb353-c165-46cc-87dd-ee448942f2de">Use the add operation</a></li>
+                    
+                    <li><a href="#5013c4da-0482-4701-92d7-a4135dd572fd">Use the add operation multiple times -- @1.1 Add numbers</a></li>
+                    
+                    <li><a href="#1b4a21fb-553e-4354-8e1c-2559f8a8b9dd">Use the add operation multiple times -- @1.2 Add numbers</a></li>
+                    
+                    <li><a href="#6daed6fc-6e14-4625-ab3c-cc384b3e5780">Use the add operation multiple times -- @1.3 Add numbers</a></li>
+                    
+                </ul>
+                </li>
+                
+            
+            </ul>
+        </td>
+        <td class="failure-index">
+            <ul class="toc">
+            
+                
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                
+            
+            </ul>
+        </td>
+    </tr>
+</table>
+
+
+    <div class="testsuite">
+        <h2>Test Suite: features.calculator.Calculator basic usage</h2>
+        <a id="848bd376-524a-4119-96fd-a358b177bd06"></a>
+        
+        
+        <h3>Results</h3>
+        <table class="proplist">
+            <tr>
+                <th>Duration</th><td>0.001 sec</td>
+            </tr>
+            <tr>
+                <th>Tests</th><td>4</td>
+            </tr>
+            <tr>
+                <th>Failures</th><td>0</td>
+            </tr>
+        </table>
+
+        <div class="testclasses">
+            <h3>Tests</h3>
+            
+            <div class="testclass">
+                <h4>features.calculator.Calculator basic usage</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="d3beb353-c165-46cc-87dd-ee448942f2de"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>Use the add operation</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.0 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>
+
+@scenario.begin
+  Scenario: Use the add operation
+    Given I open the calculator ... passed in 0.000s
+    When I type 2 + 2 ... passed in 0.000s
+    Then the result is 4 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="5013c4da-0482-4701-92d7-a4135dd572fd"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>Use the add operation multiple times -- @1.1 Add numbers</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.0 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>
+
+@scenario.begin
+  Scenario Outline: Use the add operation multiple times -- @1.1 Add numbers
+    Given I open the calculator ... passed in 0.000s
+    When I type 2 + 2 ... passed in 0.000s
+    Then the result is 4 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="1b4a21fb-553e-4354-8e1c-2559f8a8b9dd"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>Use the add operation multiple times -- @1.2 Add numbers</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.0 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>
+
+@scenario.begin
+  Scenario Outline: Use the add operation multiple times -- @1.2 Add numbers
+    Given I open the calculator ... passed in 0.000s
+    When I type 1 + 0 ... passed in 0.000s
+    Then the result is 1 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="6daed6fc-6e14-4625-ab3c-cc384b3e5780"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>Use the add operation multiple times -- @1.3 Add numbers</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.0 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>
+
+@scenario.begin
+  Scenario Outline: Use the add operation multiple times -- @1.3 Add numbers
+    Given I open the calculator ... passed in 0.000s
+    When I type 1 + -1 ... passed in 0.000s
+    Then the result is 0 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+
+
+<p class="footer">
+    Generated by junit2html
+</p>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<testsuite errors="0" failures="0" hostname="d42ece7e0891" name="features.calculator.Calculator basic usage" skipped="0" tests="4" time="0.000826" timestamp="2024-05-10T16:33:25.056146"><testcase classname="features.calculator.Calculator basic usage" name="Use the add operation" status="passed" time="0.00048"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Use the add operation
+    Given I open the calculator ... passed in 0.000s
+    When I type 2 + 2 ... passed in 0.000s
+    Then the result is 4 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="features.calculator.Calculator basic usage" name="Use the add operation multiple times -- @1.1 Add numbers" status="passed" time="0.000155"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Use the add operation multiple times -- @1.1 Add numbers
+    Given I open the calculator ... passed in 0.000s
+    When I type 2 + 2 ... passed in 0.000s
+    Then the result is 4 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="features.calculator.Calculator basic usage" name="Use the add operation multiple times -- @1.2 Add numbers" status="passed" time="9.7e-05"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Use the add operation multiple times -- @1.2 Add numbers
+    Given I open the calculator ... passed in 0.000s
+    When I type 1 + 0 ... passed in 0.000s
+    Then the result is 1 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="features.calculator.Calculator basic usage" name="Use the add operation multiple times -- @1.3 Add numbers" status="passed" time="9.3e-05"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Use the add operation multiple times -- @1.3 Add numbers
+    Given I open the calculator ... passed in 0.000s
+    When I type 1 + -1 ... passed in 0.000s
+    Then the result is 0 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
